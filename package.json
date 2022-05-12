@@ -1,0 +1,12 @@
+{
+  "name": "vitePress-demo",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^0.22.4"
+  }
+}
