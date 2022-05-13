@@ -2,9 +2,16 @@ import { defineConfig } from 'vitepress'
 
 const config = defineConfig({
   title: 'hello',
-  description: '描述信息',
 
-  themeConfig: {}
+  themeConfig: {
+    nav: [
+      {
+        text: '文档',
+        activeMatch: '/docs/',
+        link: '/docs/hello'
+      }
+    ]
+  }
 })
 
 export default config

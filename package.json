@@ -7,6 +7,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "vitepress": "^0.22.4"
+    "vitepress": "^0.22.4",
+    "vue": "^3.2.33"
   }
 }
