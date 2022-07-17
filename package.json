@@ -1,5 +1,5 @@
 {
-  "name": "vitepress-demo",
+  "name": "vitepress-template",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",

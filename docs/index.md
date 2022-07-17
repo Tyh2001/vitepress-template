@@ -1,6 +1,6 @@
 ---
 layout: home
-title: vitepress-demo
+title: vitepress-template
 ---
 
 <Home />
