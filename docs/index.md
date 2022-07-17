@@ -1,7 +1,6 @@
 ---
-page: true
-sidebar: false
-title: title
+layout: home
+title: vitepress-demo
 ---
 
 <Home />

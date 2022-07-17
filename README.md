@@ -1,4 +1,4 @@
-# vitePress-demo
+# vitepress-demo
 
 vitePress 模板
 
