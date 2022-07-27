@@ -1,8 +1,8 @@
-# vitepress-template
+# Vitepress-template
 
-## 介绍
+## 💬 介绍
 
-[vitepress](https://vitepress.vuejs.org) 模板
+[Vitepress](https://vitepress.vuejs.org) 模板，快速搭建你的静态网站和博客。
 
 ## ✨ 特性
 
@@ -14,15 +14,20 @@
 - 🚩 markdown 中直接使用 setup 语法糖
 - 📃 第三方组件库支持
 
-## 启动
+## 👀 启动
 
 ```shell
+# 安装依赖
 pnpm i
 
+# 启动
 pnpm dev
+
+# 打包
+pnpm build
 ```
 
-## 贡献者
+## 🙏 贡献者
 
 该仓库由 [Tyh2001](https://github.com/Tyh2001) 提供。
 

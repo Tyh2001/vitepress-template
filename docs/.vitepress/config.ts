@@ -1,18 +1,19 @@
 import { defineConfig } from 'vitepress'
+import { nav } from './utils/nav'
+import { sidebar } from './utils/sidebar'
 
-// 更多配置项参考：https://vitepress.vuejs.org/config/app-configs.html
+/**
+ * 参考：https://vitepress.vuejs.org/config/app-configs.html
+ * 
+ * 修改这里需要重启项目才可以生效
+ */
 
 const config = defineConfig({
   title: 'hello',
 
   themeConfig: {
-    nav: [
-      {
-        text: '文档',
-        activeMatch: '/docs/',
-        link: '/docs/hello'
-      }
-    ]
+    nav,
+    sidebar
   }
 })
 
