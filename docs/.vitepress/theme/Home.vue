@@ -1,56 +1,89 @@
 <template>
-  <f-main>
-    <f-text align="center" line-height="70px" bold block size="25px">Hello</f-text>
+  <div id="home">
+    <p class="title">Hello</p>
 
-    <f-text align="center">
-      <f-button round type="primary" class="start" href="/docs/hello.html">
-        😊 快速开始
-      </f-button>
-      <f-button round href="https://github.com/Tyh2001/vitePress-demo">
-        Github
-      </f-button>
-    </f-text>
+    <p align="center">
+      <a href="/docs/hello.html">
+        <button class="start">😊 快速开始</button>
+      </a>
+      <a href="https://github.com/Tyh2001/vitePress-demo" target="_back">
+        <button>Github</button>
+      </a>
+    </p>
 
-    <f-divider margin="40px" color="#eef" />
+    <p class="box">
+      <strong>欢迎使用</strong>
+      <span>⚡ 欢迎使用 vitePress-demo</span>
+      <span>🌲 在这里编写你的博客吧</span>
+      <span>
+        🔨 官方文档在
+        <a target="_back" href="https://vitepress.vuejs.org">这里</a>
+      </span>
+    </p>
 
-    <f-text bold block>欢迎使用</f-text>
-    <f-text block>⚡ 欢迎使用 vitePress-template</f-text>
-    <f-text block>🌲 在这里编写你的博客吧</f-text>
-    <f-text block>
-      🔨 官方文档在
-      <f-link href="https://vitepress.vuejs.org" type="primary">
-        这里
-      </f-link>
-    </f-text>
-
-    <f-divider margin="40px" color="#eef" />
-
-    <f-text bold block>特性</f-text>
-    <f-text>📌 开箱即用</f-text>
-    <f-text>💪 使用 Vue.js 最新特性开发</f-text>
-    <f-text>🐆 全面基于 Vite，速度够快</f-text>
-    <f-text>🖍️ markdown 中直接使用 vue 组件</f-text>
-    <f-text>✔️ 配置简单，上手容易</f-text>
-    <f-text>🚩 markdown 中直接使用 setup 语法糖</f-text>
-    <f-text>📃 第三方组件库支持</f-text>
-  </f-main>
+    <p class="box">
+      <strong>内容</strong>
+      <span>⚡ 你的内容1</span>
+      <span>🌲 你的内容2</span>
+      <span>🔨 你的内容3</span>
+    </p>
+  </div>
 </template>
 
 <style scoped>
-.f-main {
+#home {
   max-width: 620px;
   margin: 40px auto;
   box-sizing: border-box;
   padding: 40px;
   padding-bottom: 0;
 }
-
-.f-button-default {
-  margin-left: 10px;
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 70px;
+  margin-bottom: 20px;
+  user-select: none;
+}
+button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #eee;
+  color: #333;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  user-select: none;
+}
+.start {
+  margin-right: 15px;
+  background: #2d5af1;
+  color: #fff;
+  font-weight: 600;
+}
+button:hover {
+  opacity: 0.8;
 }
 
-.f-text {
+button:active {
+  opacity: 1;
+}
+.box {
+  padding: 40px 0;
+  border-top: 1px solid rgb(224, 224, 224);
+  box-sizing: border-box;
+}
+.box span {
   display: block;
   line-height: 40px;
+}
+.box strong {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: block;
 }
 </style>
