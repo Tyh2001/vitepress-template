@@ -1,12 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
-  fighting-design: 0.3.2-bate.5
+  fighting-design: 0.5.1-bate.4
   vitepress: ^1.0.0-alpha.4
   vue: ^3.2.33
 
 dependencies:
-  fighting-design: 0.3.2-bate.5
+  fighting-design: 0.5.1-bate.4
   vitepress: 1.0.0-alpha.4
   vue: 3.2.33
 
@@ -552,8 +552,8 @@ packages:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
     dev: false
 
-  /fighting-design/0.3.2-bate.5:
-    resolution: {integrity: sha512-/5SHo7vRgiG1j57M7ihuFIjiOdZQIJODQs53K0klV4oRHsDCuqwMOCrAnhVCwIEuPZJBAI1jZAfhtqcYNktZRQ==}
+  /fighting-design/0.5.1-bate.4:
+    resolution: {integrity: sha512-IvHWnk3RwOl+z6ehcvBtdRd9F+KvNZhe8qLJaqzDX7Cw5MvZiI1pIWyhzlm8qyzT3ZIJUNh4V/Fbyhn4RN9owg==}
     dev: false
 
   /fsevents/2.3.2:
