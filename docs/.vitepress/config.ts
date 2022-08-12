@@ -9,9 +9,15 @@ import { sidebar } from './utils/sidebar'
  */
 
 const config = defineConfig({
-  title: 'hello',
+  title: 'vitepress-template',
 
   themeConfig: {
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/Tyh2001/vitepress-template'
+      }
+    ],
     nav,
     sidebar
   }

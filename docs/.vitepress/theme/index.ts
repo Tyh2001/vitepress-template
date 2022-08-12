@@ -5,7 +5,7 @@ import DefaultTheme from 'vitepress/theme'
  * 详情参考：https://github.com/FightingDesign/fighting-design
  */
 import FightingDesign from 'fighting-design'
-import 'fighting-design/dist/style.css'
+import 'fighting-design/dist/index.css'
 
 export default {
   ...DefaultTheme,

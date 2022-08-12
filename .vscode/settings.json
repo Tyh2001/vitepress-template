@@ -3,6 +3,7 @@
     "peaceiris",
     "pnpm",
     "tian",
+    "Vite",
     "vitepress"
   ]
 }
