@@ -7,7 +7,7 @@
 ## ✨ 特性
 
 - 📌 开箱即用
-- 和 [fighting-design](https://github.com/FightingDesign/fighting-design) 完美融合
+- 🚀 和 [fighting-design](https://github.com/FightingDesign/fighting-design) 完美融合
 - 💪 使用 Vue.js 最新特性开发
 - 🐆 全面基于 Vite，速度够快
 - 🖍️ markdown 中直接使用 vue 组件
