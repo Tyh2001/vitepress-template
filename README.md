@@ -33,7 +33,7 @@ pnpm serve
 
 ## 🕵️‍♀️ 更新日志
 
-参考 []()
+参考 [CHANGELOG.md](https://github.com/Tyh2001/vitepress-template/blob/master/CHANGELOG.md)
 
 ## 🙏 贡献者
 
