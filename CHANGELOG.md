@@ -4,6 +4,10 @@
 
 目前 `vitepress` 的最新版本是 `1.0.0-alpha.8` 但是最新版本在构建的时候会报错，我已经向官方提交了 [issues](https://github.com/vuejs/vitepress/issues/1209)，等待解决中
 
+经过测试，目前还是 `1.0.0-alpha.4` 是一个相对稳定的版本，暂无其它问题。对于 `1.0.0-alpha.5` 以上打包失败的问题，可以尝试使用管理员身份运行 `PowerShell` 可以实现正常打包。
+
+所以 `vitepress-template` 暂时先使用 `1.0.0-alpha.4` 稳定版本提供使用
+
 ## 2022-08-18
 
 - 更新了 `vitepress` 版本
