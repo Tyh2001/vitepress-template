@@ -2,7 +2,9 @@
 
 ## 2022-08-20
 
-`vitepress` 最新版本 `1.0.0-alpha.9` 已经修复之前的打包问题
+- `vitepress` 最新版本 `1.0.0-alpha.9` 已经修复之前的打包问题
+- 更新 `fighting-design` 引入
+- 更新 `fighting-design` 版本
 
 ## 2022-08-19
 
