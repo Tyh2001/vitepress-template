@@ -1,5 +1,9 @@
 # 更新日志
 
+## 2022-08-20
+
+`vitepress` 最新版本 `1.0.0-alpha.9` 已经修复之前的打包问题
+
 ## 2022-08-19
 
 目前 `vitepress` 的最新版本是 `1.0.0-alpha.8` 但是最新版本在构建的时候会报错，我已经向官方提交了 [issues](https://github.com/vuejs/vitepress/issues/1209)，等待解决中
