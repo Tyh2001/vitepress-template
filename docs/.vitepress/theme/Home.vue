@@ -8,7 +8,11 @@
       <f-button round type="primary" class="start" href="/docs/hello.html">
         😊 快速开始
       </f-button>
-      <f-button round href="https://github.com/Tyh2001/vitePress-demo">
+      <f-button
+        round
+        href="https://github.com/Tyh2001/vitePress-demo"
+        target="_blank"
+      >
         Github
       </f-button>
     </f-text>
