@@ -3,13 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   fighting-design: 0.6.2-alpha.2
   vite: ^3.0.8
-  vitepress: 1.0.0-alpha.9
+  vitepress: 1.0.0-alpha.10
   vue: ^3.2.33
 
 dependencies:
   fighting-design: 0.6.2-alpha.2
   vite: 3.0.9
-  vitepress: 1.0.0-alpha.9
+  vitepress: 1.0.0-alpha.10
   vue: 3.2.37
 
 packages:
@@ -707,8 +707,8 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /vitepress/1.0.0-alpha.9:
-    resolution: {integrity: sha512-+VxgjflIcssbuyUBRYjZRpQ8w25v6XnIbXFmm9qwLVaqZdC0rN6qViEp7oRwA3HUlrGxj7GEzqQjW7xj4+E83w==}
+  /vitepress/1.0.0-alpha.10:
+    resolution: {integrity: sha512-RGPU+YApj2jaYplAIJUe+2qlDks9FzPX1QGK+7NdGByeCCVZg6z9eYWjjvfvA/sgCtG3yeJE/4/jCwlv4Y8bVw==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.2.1

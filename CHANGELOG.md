@@ -1,5 +1,9 @@
 # 更新日志
 
+## 2022-08-24
+
+- 更新 `vitepress 1.0.0-alpha.10` 版本
+
 ## 2022-08-23
 
 - 新增超链接 `target` 属性配置项 [target = "\_self" on nav links](https://github.com/vuejs/vitepress/discussions/1015#discussioncomment-3177860)
