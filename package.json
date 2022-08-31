@@ -7,9 +7,11 @@
   },
   "license": "ISC",
   "dependencies": {
-    "fighting-design": "0.6.2-alpha.2",
-    "vite": "^3.0.8",
     "vitepress": "1.0.0-alpha.10",
     "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "vite": "^3.0.8",
+    "fighting-design": "0.6.2-alpha.6"
   }
 }
