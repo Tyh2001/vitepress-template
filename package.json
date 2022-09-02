@@ -12,6 +12,6 @@
   },
   "devDependencies": {
     "vite": "^3.0.9",
-    "fighting-design": "0.6.3-alpha.1"
+    "fighting-design": "0.6.3-alpha.2"
   }
 }
