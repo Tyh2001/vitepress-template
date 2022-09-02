@@ -13,6 +13,9 @@ const NavLinkPatch = (): Plugin => ({
 
 export default (): UserConfigExport => {
   return {
+    server: {
+      port: 1216
+    },
     plugins: [NavLinkPatch()],
     optimizeDeps: {
       exclude: ['vitepress']
