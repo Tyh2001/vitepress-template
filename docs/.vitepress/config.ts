@@ -12,6 +12,7 @@ const config = defineConfig({
   title: 'vitepress-template',
 
   themeConfig: {
+    lastUpdatedText: '最后更新时间',
     socialLinks: [
       {
         icon: 'github',
