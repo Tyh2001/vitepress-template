@@ -10,6 +10,7 @@ import { sidebar } from './utils/sidebar'
 
 const config = defineConfig({
   title: 'vitepress-template',
+  lastUpdated: true,
 
   themeConfig: {
     lastUpdatedText: '最后更新时间',

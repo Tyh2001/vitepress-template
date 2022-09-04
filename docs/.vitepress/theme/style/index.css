@@ -1,0 +1,7 @@
+:root {
+  /* 
+    设置品牌色
+    https://vitepress.vuejs.org/guide/theme-home-page#hero-section
+  */
+  --vp-c-green: #5d80f4;
+}

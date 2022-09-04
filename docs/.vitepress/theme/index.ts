@@ -1,5 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 
+import './style/index.css'
+
 /**
  * 使用第三方组件库
  * 详情参考：https://github.com/FightingDesign/fighting-design
