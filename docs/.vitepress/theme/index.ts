@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 
-import './style/index.css'
+import './style/index.scss'
 
 /**
  * 使用第三方组件库
