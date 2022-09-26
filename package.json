@@ -12,7 +12,7 @@
     "vue": "^3.2.33"
   },
   "devDependencies": {
-    "fighting-design": "0.6.3-alpha.2",
+    "fighting-design": "0.6.5-alpha.5",
     "vite": "^3.0.9"
   }
 }
