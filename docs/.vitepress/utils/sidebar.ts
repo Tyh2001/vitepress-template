@@ -1,3 +1,8 @@
+/**
+ * 侧边栏模块
+ * 
+ * 详情参考：https://vitepress.vuejs.org/guide/theme-sidebar
+ */
 export const sidebar = {
   '/docs/': [
     {

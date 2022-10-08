@@ -7,12 +7,12 @@
   },
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.54.9",
     "vitepress": "1.0.0-alpha.13",
     "vue": "^3.2.33"
   },
   "devDependencies": {
-    "fighting-design": "0.6.5-alpha.5",
-    "vite": "^3.0.9"
+    "vite": "^3.0.9",
+    "sass": "^1.54.9",
+    "fighting-design": "0.7.0-alpha.3"
   }
 }
