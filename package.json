@@ -5,14 +5,14 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "vitepress": "1.0.0-alpha.13",
+    "vitepress": "1.0.0-alpha.25",
     "vue": "^3.2.33"
   },
   "devDependencies": {
     "vite": "^3.0.9",
     "sass": "^1.54.9",
-    "fighting-design": "0.7.0-alpha.3"
+    "fighting-design": "0.7.1-alpha.2"
   }
 }
