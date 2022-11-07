@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { nav } from './utils/nav'
 import { sidebar } from './utils/sidebar'
+import { mdPlugin } from './config/plugins'
 
 /**
  * 更多配置项参考：https://vitepress.vuejs.org/config/app-configs.html
@@ -20,6 +21,9 @@ const config = defineConfig({
     ],
     nav,
     sidebar
+  },
+  markdown: {
+    config: (md) => mdPlugin(md)
   }
 })
 

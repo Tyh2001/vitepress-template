@@ -13,7 +13,6 @@
 }
 
 .vp-doc {
-
   // 代码片段下拉菜单
   details {
     padding: 10px !important;
@@ -42,26 +41,32 @@
   }
 
   // 表格
-  table {
+  .vp-table__container {
     width: 100%;
-    display: table;
-  }
+    overflow-y: hidden;
+    overflow-x: auto;
 
-  th,
-  tr:nth-child(2n) {
-    background-color: transparent;
-  }
+    table {
+      width: 100%;
+      display: inline-table;
+    }
 
-  tr {
-    border-top: none;
-    border-bottom: 1px solid rgb(231, 230, 230);
-  }
+    th,
+    tr:nth-child(2n) {
+      background-color: transparent;
+    }
 
-  td,
-  th {
-    text-align: center;
-    font-size: 15px;
-    border: none;
+    tr {
+      border-top: none;
+      border-bottom: 1px solid rgb(231, 230, 230);
+    }
+
+    td,
+    th {
+      text-align: center;
+      font-size: 15px;
+      border: none;
+    }
   }
 }
 
