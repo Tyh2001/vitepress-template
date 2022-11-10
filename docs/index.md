@@ -5,7 +5,7 @@ title: vitepress-template
 
 <Home />
 
-<script setup>
+<script setup lang="ts">
 /**
  * 这里路径 @theme 可以直接指向 .vitepress/theme 目录
  * 
