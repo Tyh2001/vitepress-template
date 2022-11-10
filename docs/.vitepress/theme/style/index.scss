@@ -5,11 +5,11 @@
 }
 
 .dark {
-  --vp-c-bg-alt: rgb(36, 36, 36); // 深色模式侧边栏
+  --vp-c-bg-alt: #242424; // 深色模式侧边栏
 }
 
 .sidebar-link-item.active {
-  background: rgba(82, 179, 94, 0.1);
+  background: #52b35e1a;
 }
 
 .vp-doc {
@@ -58,7 +58,7 @@
 
     tr {
       border-top: none;
-      border-bottom: 1px solid rgb(231, 230, 230);
+      border-bottom: 1px solid #e7e6e6;
     }
 
     td,
