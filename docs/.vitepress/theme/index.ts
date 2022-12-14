@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
-import Search from './components/Search.vue'
+import vpSearch from './components/vp-search.vue'
 import './style/index.scss'
 
 /**
@@ -20,7 +20,7 @@ export default {
        * 
        * https://github.com/vuejs/vitepress/blob/main/docs/guide/theme-introduction.md 
        */
-      'nav-bar-content-before': () => h(Search)
+      'nav-bar-content-before': () => h(vpSearch)
     })
   },
   enhanceApp({ app }) {

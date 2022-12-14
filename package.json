@@ -8,11 +8,11 @@
   "license": "MIT",
   "dependencies": {
     "markdown-it": "^13.0.1",
-    "vitepress": "1.0.0-alpha.27",
+    "vitepress": "1.0.0-alpha.31",
     "vue": "^3.2.33"
   },
   "devDependencies": {
-    "fighting-design": "0.8.0-alpha.5",
+    "fighting-design": "0.11.1",
     "sass": "^1.54.9",
     "vite": "^3.0.9"
   }

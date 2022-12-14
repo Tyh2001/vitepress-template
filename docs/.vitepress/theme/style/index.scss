@@ -9,7 +9,7 @@
 }
 
 .sidebar-link-item.active {
-  background: #52b35e1a;
+  background: rgba(82, 179, 94, 0.1);
 }
 
 .vp-doc {
@@ -35,9 +35,42 @@
     }
   }
 
+  .f-dropdown {
+    ul {
+      list-style: none;
+    }
+  }
+
   ul {
-    list-style: none;
+    list-style: disc;
     padding-left: 0;
+
+    li {
+      margin-top: 0;
+    }
+  }
+
+  .f-up-load__file-list {
+    margin: 0;
+  }
+
+  ul.f-list {
+    list-style: none;
+  }
+
+  // 移除表格默认样式
+  table {
+    margin: 0;
+
+    th,
+    tr,
+    td {
+      border: none;
+      background: none;
+    }
+    tr:nth-child(2n) {
+      background: none;
+    }
   }
 
   // 表格
@@ -56,17 +89,16 @@
       background-color: transparent;
     }
 
-    tr {
-      border-top: none;
-      border-bottom: 1px solid #e7e6e6;
-    }
-
     td,
     th {
       text-align: center;
       font-size: 15px;
-      border: none;
+      border-bottom: 1px solid #eee;
     }
+  }
+
+  p.f-text {
+    line-height: 1;
   }
 }
 
@@ -81,16 +113,22 @@
     margin: 0;
     padding: 5px 18px;
     transition: 0.4s;
+    padding-left: 14px !important;
   }
 
   .VPLink.link.link.active {
     background: lighten(#2d5af1, 39%);
-    border-radius: 6px;
+    box-sizing: border-box;
 
     .link-text {
       font-weight: 600;
     }
   }
+}
+
+// 菜单栏
+.VPSidebar.open {
+  z-index: 99999;
 }
 
 // 滚动条
@@ -102,4 +140,10 @@
 ::-webkit-scrollbar-thumb {
   background: #dddddd;
   border-radius: 6px;
+}
+
+// 滚动条高度
+::-webkit-scrollbar {
+  height: 8px;
+  cursor: pointer;
 }
