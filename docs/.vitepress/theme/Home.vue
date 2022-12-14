@@ -43,6 +43,10 @@
   </f-main>
 </template>
 
+<script lang="ts" setup>
+  // code……
+</script>
+
 <style scoped>
 .f-main {
   max-width: 620px;
