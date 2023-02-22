@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+  // code……
+</script>
+
 <template>
   <f-main>
     <f-text align="center" line-height="70px" bold block size="25px">
@@ -42,10 +46,6 @@
     <f-text>📃 第三方组件库支持</f-text>
   </f-main>
 </template>
-
-<script lang="ts" setup>
-  // code……
-</script>
 
 <style scoped>
 .f-main {

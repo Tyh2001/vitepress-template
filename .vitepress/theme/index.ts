@@ -1,11 +1,13 @@
-import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
+import DefaultTheme from 'vitepress/theme'
 import vpSearch from './components/vp-search.vue'
 import './style/index.scss'
+import type { VNode } from 'vue'
 
 /**
  * 使用第三方组件库
- * 详情参考：https://github.com/FightingDesign/fighting-design
+ * 
+ * @see fighting-design https://github.com/FightingDesign/fighting-design
  */
 import FightingDesign from 'fighting-design'
 import 'fighting-design/dist/index.css'
@@ -16,11 +18,12 @@ export default {
     return h(DefaultTheme.Layout, null, {
       /**
        * 导航栏插入搜索的输入框插槽
+       *
        * 更多插槽参考
-       * 
-       * https://github.com/vuejs/vitepress/blob/main/docs/guide/theme-introduction.md 
+       *
+       * @see layout-slots https://vitepress.vuejs.org/guide/theme-introduction#layout-slots
        */
-      'nav-bar-content-before': () => h(vpSearch)
+      'nav-bar-content-before': (): VNode => h(vpSearch)
     })
   },
   enhanceApp({ app }) {
