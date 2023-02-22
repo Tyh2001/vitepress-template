@@ -10,10 +10,6 @@ import './style/index.scss'
 import FightingDesign from 'fighting-design'
 import 'fighting-design/dist/index.css'
 
-import Demo from 'vitepress-theme-demoblock/dist/client/components/Demo.vue'
-import DemoBlock from 'vitepress-theme-demoblock/dist/client/components/DemoBlock.vue'
-import 'vitepress-theme-demoblock/dist/theme/styles/index.css'
-
 export default {
   ...DefaultTheme,
   Layout() {
@@ -29,7 +25,5 @@ export default {
   },
   enhanceApp({ app }) {
     app.use(FightingDesign)
-    app.component('Demo', Demo)
-    app.component('DemoBlock', DemoBlock)
   }
 }
