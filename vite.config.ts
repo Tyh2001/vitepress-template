@@ -1,6 +1,11 @@
 import type { UserConfigExport, Plugin } from 'vite'
 
-// https://github.com/vuejs/vitepress/discussions/1015#discussioncomment-3177860
+/**
+ * 解决 target = "_self" on nav links 报错问题
+ * 
+ * @see issues#1015 https://github.com/vuejs/vitepress/discussions/1015#discussioncomment-3177860
+ * @returns { Object }
+ */
 const NavLinkPatch = (): Plugin => ({
   name: 'override-target-blank',
   enforce: 'pre',
