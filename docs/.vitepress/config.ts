@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { nav } from './utils/nav'
 import { sidebar } from './utils/sidebar'
 import { mdPlugin } from './config/plugins'
+import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 
 /**
  * 更多配置项参考：https://vitepress.vuejs.org/config/app-configs.html
@@ -23,7 +24,10 @@ const config = defineConfig({
     sidebar
   },
   markdown: {
-    config: (md) => mdPlugin(md)
+    config: (md) => {
+      // md.use(demoBlockPlugin)
+      // md.use(mdPlugin)
+    }
   }
 })
 
