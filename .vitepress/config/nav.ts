@@ -1,6 +1,7 @@
 /**
- * 顶部导航栏模块
- * 详细参考：https://vitepress.vuejs.org/guide/theme-nav
+ * 顶部导航栏菜单
+ *
+ * @see Nav https://vitepress.vuejs.org/guide/theme-nav#nav
  */
 export const nav = [
   {

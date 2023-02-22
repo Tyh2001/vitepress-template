@@ -1,17 +1,17 @@
 import { defineConfig } from 'vitepress'
-import { nav } from './utils/nav'
-import { sidebar } from './utils/sidebar'
-import { mdPlugin } from './config/plugins'
-import { demoBlockPlugin } from 'vitepress-theme-demoblock'
+import { nav } from './config/nav'
+import { sidebar } from './config/sidebar'
+import { PluginTable } from './plugin'
+import type MarkdownIt from 'markdown-it'
 
 /**
- * 更多配置项参考：https://vitepress.vuejs.org/config/app-configs.html
+ * 更多配置项参考：
+ * 
+ * @see app-configs https://vitepress.vuejs.org/config/app-configs.html
  */
-
-const config = defineConfig({
+export default defineConfig({
   title: 'vitepress-template',
   lastUpdated: true,
-
   themeConfig: {
     lastUpdatedText: '最后更新时间',
     socialLinks: [
@@ -24,11 +24,8 @@ const config = defineConfig({
     sidebar
   },
   markdown: {
-    config: (md) => {
-      // md.use(demoBlockPlugin)
-      // md.use(mdPlugin)
+    config: (md: MarkdownIt): void => {
+      md.use(PluginTable)
     }
   }
 })
-
-export default config
