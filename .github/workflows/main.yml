@@ -1,4 +1,4 @@
-name: Fighting Design Github Actions
+name: VitePress Template Github Actions
 
 # 当 master 分支 push 代码的时候触发 workflow
 on:
@@ -13,7 +13,6 @@ jobs:
     steps:
       # 下载仓库代码 / 校验
       - name: Checkout
-        # actions/checkout@v3 是 github 官方的一个action，用于 clone 该仓库的源码到工作流中
         uses: actions/checkout@v3
 
       # 安装 pnpm
@@ -22,7 +21,7 @@ jobs:
         with:
           version: 6
 
-      # 安装 node
+      # 安装 node pnpm
       - name: Setup node
         uses: actions/setup-node@v3
         with:
@@ -33,8 +32,8 @@ jobs:
       - name: Install
         run: pnpm i
 
-      # 打包组件
-      - name: Build Docs
+      # 打包文档
+      - name: Build docs
         run: pnpm build
 
       # 向 Codecov 报告覆盖率
@@ -43,8 +42,9 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 
+      # https://github.com/peaceiris/actions-gh-pages#readme
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/.vitepress/dist
+          publish_dir: .vitepress/dist
