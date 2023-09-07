@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+// import { defineConfig } from 'vitepress'
 import { nav } from './config/nav'
 import { sidebar } from './config/sidebar'
 import { PluginTable } from './plugin'
@@ -9,7 +9,7 @@ import type MarkdownIt from 'markdown-it'
  * 
  * @see app-configs https://vitepress.vuejs.org/config/app-configs.html
  */
-export default defineConfig({
+export default {
   title: 'vitepress-template',
   /**
    * 是否显示最后更新时间
@@ -64,4 +64,4 @@ export default defineConfig({
       md.use(PluginTable)
     }
   }
-})
+}

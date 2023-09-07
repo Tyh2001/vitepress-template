@@ -33,8 +33,6 @@ const getType = (target: unknown): string => {
 
 该仓库由 [Tyh2001](https://github.com/Tyh2001) 提供。
 
-![](https://tianyuhao.cn/images/auto/weixin.png)
-
 ## 静态资源
 
 ![](/images/bug.jpg)

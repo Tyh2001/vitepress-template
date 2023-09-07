@@ -4,15 +4,15 @@
 
 <template>
   <f-main>
-    <f-text align="center" line-height="70px" bold block size="25px">
+    <f-text align="center" bold block :size="25">
       Hello
     </f-text>
 
-    <f-text align="center">
+    <f-text align="center" style="margin-top: 20px;">
       <f-button round type="primary" class="start" href="/docs/hello.html">
         😊 快速开始
       </f-button>
-      <f-button round href="https://github.com/Tyh2001/vitePress-demo" target="_blank">
+      <f-button round href="https://github.com/Tyh2001/vitePress-demo" target="_blank" style="margin-left: 20px;">
         Github
       </f-button>
     </f-text>
