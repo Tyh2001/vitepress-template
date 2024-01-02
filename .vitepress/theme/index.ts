@@ -21,7 +21,7 @@ export default {
        *
        * 更多插槽参考
        *
-       * @see layout-slots https://vitepress.vuejs.org/guide/theme-introduction#layout-slots
+       * @see 布局插槽 https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
        */
       'nav-bar-content-before': (): VNode => h(vpSearch)
     })
